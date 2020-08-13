@@ -14,6 +14,8 @@
 		04302D2924E212F700E054AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04302D2824E212F700E054AC /* Assets.xcassets */; };
 		04302D2C24E212F700E054AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04302D2A24E212F700E054AC /* LaunchScreen.storyboard */; };
 		04302D3724E212F700E054AC /* CalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04302D3624E212F700E054AC /* CalculatorTests.swift */; };
+		04FFF0BE24E4B83600B34FFF /* CalculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FFF0BD24E4B83600B34FFF /* CalculatorViewController.swift */; };
+		04FFF0C024E4C1CF00B34FFF /* Operation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FFF0BF24E4C1CF00B34FFF /* Operation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +40,8 @@
 		04302D3224E212F700E054AC /* CalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04302D3624E212F700E054AC /* CalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorTests.swift; sourceTree = "<group>"; };
 		04302D3824E212F700E054AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04FFF0BD24E4B83600B34FFF /* CalculatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorViewController.swift; sourceTree = "<group>"; };
+		04FFF0BF24E4C1CF00B34FFF /* Operation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Operation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +90,8 @@
 				04302D2824E212F700E054AC /* Assets.xcassets */,
 				04302D2A24E212F700E054AC /* LaunchScreen.storyboard */,
 				04302D2D24E212F700E054AC /* Info.plist */,
+				04FFF0BD24E4B83600B34FFF /* CalculatorViewController.swift */,
+				04FFF0BF24E4C1CF00B34FFF /* Operation.swift */,
 			);
 			path = Calculator;
 			sourceTree = "<group>";
@@ -202,6 +208,8 @@
 			files = (
 				04302D2424E212F600E054AC /* CurrencyViewController.swift in Sources */,
 				04302D2024E212F600E054AC /* AppDelegate.swift in Sources */,
+				04FFF0BE24E4B83600B34FFF /* CalculatorViewController.swift in Sources */,
+				04FFF0C024E4C1CF00B34FFF /* Operation.swift in Sources */,
 				04302D2224E212F600E054AC /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
