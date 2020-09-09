@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0424413224EB4CB5003E987F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0424413124EB4CB5003E987F /* AppDelegate.swift */; };
+		0424413424EB4CB5003E987F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0424413324EB4CB5003E987F /* SceneDelegate.swift */; };
+		0424413924EB4CB5003E987F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0424413724EB4CB5003E987F /* Main.storyboard */; };
+		0424413B24EB4CB7003E987F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0424413A24EB4CB7003E987F /* Assets.xcassets */; };
+		0424413E24EB4CB7003E987F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0424413C24EB4CB7003E987F /* LaunchScreen.storyboard */; };
+		0424414924EB4CB7003E987F /* NintendoBookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0424414824EB4CB7003E987F /* NintendoBookTests.swift */; };
+		0424415524EB4F1C003E987F /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0424415424EB4F1C003E987F /* Character.swift */; };
+		0424415B24EB5192003E987F /* ListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0424415A24EB5192003E987F /* ListTableViewController.swift */; };
+		0424415D24EB5251003E987F /* CharacterService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0424415C24EB5251003E987F /* CharacterService.swift */; };
+		0424416024EB5A55003E987F /* CharacterTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0424415F24EB5A55003E987F /* CharacterTableViewCell.swift */; };
+		04E0C16D24F098A000AC3E67 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E0C16C24F098A000AC3E67 /* DetailViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0424414524EB4CB7003E987F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0424412624EB4CB5003E987F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0424412D24EB4CB5003E987F;
+			remoteInfo = NintendoBook;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0424412E24EB4CB5003E987F /* NintendoBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NintendoBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0424413124EB4CB5003E987F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0424413324EB4CB5003E987F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		0424413824EB4CB5003E987F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0424413A24EB4CB7003E987F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0424413D24EB4CB7003E987F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0424413F24EB4CB7003E987F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0424414424EB4CB7003E987F /* NintendoBookTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NintendoBookTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0424414824EB4CB7003E987F /* NintendoBookTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NintendoBookTests.swift; sourceTree = "<group>"; };
+		0424414A24EB4CB7003E987F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0424415424EB4F1C003E987F /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		0424415A24EB5192003E987F /* ListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableViewController.swift; sourceTree = "<group>"; };
+		0424415C24EB5251003E987F /* CharacterService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterService.swift; sourceTree = "<group>"; };
+		0424415F24EB5A55003E987F /* CharacterTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterTableViewCell.swift; sourceTree = "<group>"; };
+		04E0C16C24F098A000AC3E67 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0424412B24EB4CB5003E987F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0424414124EB4CB7003E987F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0424412524EB4CB5003E987F = {
+			isa = PBXGroup;
+			children = (
+				0424413024EB4CB5003E987F /* NintendoBook */,
+				0424414724EB4CB7003E987F /* NintendoBookTests */,
+				0424412F24EB4CB5003E987F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0424412F24EB4CB5003E987F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0424412E24EB4CB5003E987F /* NintendoBook.app */,
+				0424414424EB4CB7003E987F /* NintendoBookTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0424413024EB4CB5003E987F /* NintendoBook */ = {
+			isa = PBXGroup;
+			children = (
+				0424415E24EB5A0D003E987F /* Cells */,
+				0424415724EB502C003E987F /* Service */,
+				0424415624EB501A003E987F /* ViewControllers */,
+				0424415324EB4E09003E987F /* Model */,
+				0424413124EB4CB5003E987F /* AppDelegate.swift */,
+				0424413324EB4CB5003E987F /* SceneDelegate.swift */,
+				0424413724EB4CB5003E987F /* Main.storyboard */,
+				0424413A24EB4CB7003E987F /* Assets.xcassets */,
+				0424413C24EB4CB7003E987F /* LaunchScreen.storyboard */,
+				0424413F24EB4CB7003E987F /* Info.plist */,
+			);
+			path = NintendoBook;
+			sourceTree = "<group>";
+		};
+		0424414724EB4CB7003E987F /* NintendoBookTests */ = {
+			isa = PBXGroup;
+			children = (
+				0424414824EB4CB7003E987F /* NintendoBookTests.swift */,
+				0424414A24EB4CB7003E987F /* Info.plist */,
+			);
+			path = NintendoBookTests;
+			sourceTree = "<group>";
+		};
+		0424415324EB4E09003E987F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0424415424EB4F1C003E987F /* Character.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0424415624EB501A003E987F /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				0424415A24EB5192003E987F /* ListTableViewController.swift */,
+				04E0C16C24F098A000AC3E67 /* DetailViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		0424415724EB502C003E987F /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				0424415C24EB5251003E987F /* CharacterService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		0424415E24EB5A0D003E987F /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				0424415F24EB5A55003E987F /* CharacterTableViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0424412D24EB4CB5003E987F /* NintendoBook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0424414D24EB4CB7003E987F /* Build configuration list for PBXNativeTarget "NintendoBook" */;
+			buildPhases = (
+				0424412A24EB4CB5003E987F /* Sources */,
+				0424412B24EB4CB5003E987F /* Frameworks */,
+				0424412C24EB4CB5003E987F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NintendoBook;
+			productName = NintendoBook;
+			productReference = 0424412E24EB4CB5003E987F /* NintendoBook.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0424414324EB4CB7003E987F /* NintendoBookTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0424415024EB4CB7003E987F /* Build configuration list for PBXNativeTarget "NintendoBookTests" */;
+			buildPhases = (
+				0424414024EB4CB7003E987F /* Sources */,
+				0424414124EB4CB7003E987F /* Frameworks */,
+				0424414224EB4CB7003E987F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0424414624EB4CB7003E987F /* PBXTargetDependency */,
+			);
+			name = NintendoBookTests;
+			productName = NintendoBookTests;
+			productReference = 0424414424EB4CB7003E987F /* NintendoBookTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0424412624EB4CB5003E987F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = academy;
+				TargetAttributes = {
+					0424412D24EB4CB5003E987F = {
+						CreatedOnToolsVersion = 11.6;
+					};
+					0424414324EB4CB7003E987F = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = 0424412D24EB4CB5003E987F;
+					};
+				};
+			};
+			buildConfigurationList = 0424412924EB4CB5003E987F /* Build configuration list for PBXProject "NintendoBook" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0424412524EB4CB5003E987F;
+			productRefGroup = 0424412F24EB4CB5003E987F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0424412D24EB4CB5003E987F /* NintendoBook */,
+				0424414324EB4CB7003E987F /* NintendoBookTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0424412C24EB4CB5003E987F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0424413E24EB4CB7003E987F /* LaunchScreen.storyboard in Resources */,
+				0424413B24EB4CB7003E987F /* Assets.xcassets in Resources */,
+				0424413924EB4CB5003E987F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0424414224EB4CB7003E987F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0424412A24EB4CB5003E987F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0424415D24EB5251003E987F /* CharacterService.swift in Sources */,
+				0424413224EB4CB5003E987F /* AppDelegate.swift in Sources */,
+				0424413424EB4CB5003E987F /* SceneDelegate.swift in Sources */,
+				0424415524EB4F1C003E987F /* Character.swift in Sources */,
+				0424415B24EB5192003E987F /* ListTableViewController.swift in Sources */,
+				0424416024EB5A55003E987F /* CharacterTableViewCell.swift in Sources */,
+				04E0C16D24F098A000AC3E67 /* DetailViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0424414024EB4CB7003E987F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0424414924EB4CB7003E987F /* NintendoBookTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0424414624EB4CB7003E987F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0424412D24EB4CB5003E987F /* NintendoBook */;
+			targetProxy = 0424414524EB4CB7003E987F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0424413724EB4CB5003E987F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0424413824EB4CB5003E987F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0424413C24EB4CB7003E987F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0424413D24EB4CB7003E987F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0424414B24EB4CB7003E987F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0424414C24EB4CB7003E987F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0424414E24EB4CB7003E987F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WKEW469W32;
+				INFOPLIST_FILE = NintendoBook/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cursoios.NintendoBook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0424414F24EB4CB7003E987F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WKEW469W32;
+				INFOPLIST_FILE = NintendoBook/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cursoios.NintendoBook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0424415124EB4CB7003E987F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WKEW469W32;
+				INFOPLIST_FILE = NintendoBookTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cursoios.NintendoBookTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NintendoBook.app/NintendoBook";
+			};
+			name = Debug;
+		};
+		0424415224EB4CB7003E987F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WKEW469W32;
+				INFOPLIST_FILE = NintendoBookTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cursoios.NintendoBookTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NintendoBook.app/NintendoBook";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0424412924EB4CB5003E987F /* Build configuration list for PBXProject "NintendoBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0424414B24EB4CB7003E987F /* Debug */,
+				0424414C24EB4CB7003E987F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0424414D24EB4CB7003E987F /* Build configuration list for PBXNativeTarget "NintendoBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0424414E24EB4CB7003E987F /* Debug */,
+				0424414F24EB4CB7003E987F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0424415024EB4CB7003E987F /* Build configuration list for PBXNativeTarget "NintendoBookTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0424415124EB4CB7003E987F /* Debug */,
+				0424415224EB4CB7003E987F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0424412624EB4CB5003E987F /* Project object */;
+}
