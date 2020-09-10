@@ -98,10 +98,12 @@ class SongService {
                 let albumImageUrl = songDict["artworkUrl100"] as? String,
                 let price = songDict["trackPrice"] as? Double,
                 let previewUrl = songDict["previewUrl"] as? String,
-//                let releaseDate = songDict["releaseDate"] as? String,
+                let releaseDateStr = songDict["releaseDate"] as? String,
                 let genreName = songDict["primaryGenreName"] as? String {
                 
-                let song = Song(artistName: artistName, trackName: trackName, albumName: albumName, albumImageUrl: albumImageUrl, price: price, previewUrl: previewUrl, releaseDate: nil, genreName: genreName)
+                let releaseDate = Date.dateFromString(dateStr: releaseDateStr)
+                
+                let song = Song(artistName: artistName, trackName: trackName, albumName: albumName, albumImageUrl: albumImageUrl, price: price, previewUrl: previewUrl, releaseDate: releaseDate, genreName: genreName)
                 
                 songs.append(song)
             } else {

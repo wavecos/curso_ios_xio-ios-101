@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import SDWebImage
 
 class SearchViewController: UIViewController {
     
@@ -48,19 +49,28 @@ extension SearchViewController: UITableViewDataSource {
         let song = self.songs[indexPath.row]
         
         cell.songInfoLabel.text = song.trackName
-        cell.detailInfoLabel.text = "\(song.albumName) - \(song.artistName)"
+        
+        if let albumName = song.albumName, let artistName = song.artistName, let releaseDateStr = song.releaseDate?.toStringFormat() {
+            cell.detailInfoLabel.text = "\(albumName) - \(artistName) - \(releaseDateStr)"
+        }
         
         if let imageUrl = song.albumImageUrl, let url = URL(string: imageUrl) {
-            
-            songService.loadImageFrom(url: url) { (imageData, errMsg) in
-                
-                if let imageData = imageData {
-                    DispatchQueue.main.async {
-                        cell.albumImageView.image = UIImage(data: imageData)
-                    }
-                }
-            }
+            cell.albumImageView.sd_setImage(with: URL(string: imageUrl), completed: nil)
         }
+        
+        
+        
+//        if let imageUrl = song.albumImageUrl, let url = URL(string: imageUrl) {
+//
+//            songService.loadImageFrom(url: url) { (imageData, errMsg) in
+//
+//                if let imageData = imageData {
+//                    DispatchQueue.main.async {
+//                        cell.albumImageView.image = UIImage(data: imageData)
+//                    }
+//                }
+//            }
+//        }
         
         return cell
     }
@@ -96,6 +106,10 @@ extension SearchViewController: UISearchBarDelegate {
             
         }
         
+    }
+    
+    func searchBarCancelButtonClicked(_ searchBar: UISearchBar) {
+        print("cancel clicked")
     }
     
 }
